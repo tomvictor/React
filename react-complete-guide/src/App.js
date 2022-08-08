@@ -25,9 +25,14 @@ const App = () => {
       price: 23424,
     },
   ];
+
+  const newExpenseHandler = (inputData) => {
+    console.log('in App.js');
+    console.log(inputData) ;
+  }
   return (
     <div>
-      <NewExpense/>
+      <NewExpense onNewExpense={newExpenseHandler}/>
       <Expenses data={data} />
     </div>
   );
