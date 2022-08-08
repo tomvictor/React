@@ -1,6 +1,7 @@
 import Expenses from "./components/Expenses/Expenses";
+import NewExpense from "./components/NewExpense/NewExpense";
 
-function App() {
+const App = () => {
   const data = [
     {
       id: 1,
@@ -24,12 +25,17 @@ function App() {
       price: 23424,
     },
   ];
+
+  const newExpenseHandler = (inputData) => {
+    console.log("in App.js");
+    console.log(inputData);
+  };
   return (
     <div>
-      <h2>Let's get started!</h2>
+      <NewExpense onNewExpense={newExpenseHandler} />
       <Expenses data={data} />
     </div>
   );
-}
+};
 
 export default App;
