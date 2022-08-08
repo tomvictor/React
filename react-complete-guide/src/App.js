@@ -27,15 +27,15 @@ const App = () => {
   ];
 
   const newExpenseHandler = (inputData) => {
-    console.log('in App.js');
-    console.log(inputData) ;
-  }
+    console.log("in App.js");
+    console.log(inputData);
+  };
   return (
     <div>
-      <NewExpense onNewExpense={newExpenseHandler}/>
+      <NewExpense onNewExpense={newExpenseHandler} />
       <Expenses data={data} />
     </div>
   );
-}
+};
 
 export default App;
