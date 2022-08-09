@@ -20,13 +20,7 @@ const INITIAL_DATA = [
     date: new Date(2021, 7, 8),
     title: "Car Insurance",
     amount: 90,
-  },
-  {
-    id: 4,
-    date: new Date(2022, 7, 8),
-    title: "Car Insurance",
-    amount: 90,
-  },
+  }
 ];
 
 const App = () => {
