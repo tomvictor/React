@@ -5,6 +5,24 @@ import NewExpense from "./components/NewExpense/NewExpense";
 const INITIAL_DATA = [
   {
     id: 1,
+    date: new Date(2019, 7, 8),
+    title: "Car Insurance",
+    amount: 90,
+  },
+  {
+    id: 2,
+    date: new Date(2020, 7, 8),
+    title: "Car Insurance",
+    amount: 90,
+  },
+  {
+    id: 3,
+    date: new Date(2021, 7, 8),
+    title: "Car Insurance",
+    amount: 90,
+  },
+  {
+    id: 4,
     date: new Date(2022, 7, 8),
     title: "Car Insurance",
     amount: 90,
