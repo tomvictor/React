@@ -25,7 +25,7 @@ const NewExpense = (props) => {
             {isEditing && <ExpenseForm onExpenseData={expenseDataHandler} cancelEditHandler={stopEditingHandler}/>}
         </div>
 
-    )
-}
+    );
+};
 
 export default NewExpense;
