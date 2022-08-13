@@ -1,2 +1,4 @@
 # try_react
- React workbook
+Udemy React Course
+
+URL : https://udemy.com/course/react-the-complete-guide-incl-redux
